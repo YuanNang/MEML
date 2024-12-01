@@ -75,7 +75,7 @@ def collect_data(mpids, base_dir):
 
 def main():
     # Load material IDs from the Excel file
-    data = pd.read_excel('stable_ternary.xlsx', engine='openpyxl').iloc
+    data = pd.read_excel('stable_ternary.xlsx', engine='openpyxl')
     mpids = list(data.material_id)
 
     base_dir = "mp_facet_structure"
