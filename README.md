@@ -10,6 +10,7 @@ Navigate to the `descriptor` directory and run the following to generate the nec
 
 ```bash
 cd descriptor
+unzip ../data/cifs.zip -d ../data
 python descriptor.py
 ```
 
