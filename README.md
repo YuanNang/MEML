@@ -1,5 +1,5 @@
 
-# 2D Materials Prediction Pipeline
+# MEML 2D Materials Prediction Pipeline
 
 This pipeline predicts the **stability**, **electronic conductivity**, and **bandgap types** of 2D materials based on crystal and X-ray diffraction (XRD) data.
 
